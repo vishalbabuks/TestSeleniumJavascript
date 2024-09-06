@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*"]
+      }
+    },
+    "include": [
+      "src/**/*",
+      "node_modules/selenium-webdriver/**/*"
+    ],
+    "exclude": [
+      "node_modules/**/*.d.ts"
+    ]
+  }
+  
